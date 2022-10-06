@@ -42,11 +42,41 @@ i{
     font-size: 32px;
     padding: 5px;
 }
-.logo{
+#po{
+    text-align: center;
+}
+.c1{
+    background-image: url("./images/nat1.jpg");
+}
+.c2{
+    background-image: url("./images/nat2.jpg");
+}
+.c3{
+    background-image: url("./images/nat3.jpg");
+}
+.c4{
+    background-image: url("./images/nat4.jpg");
+}
+.c5{
+    background-image: url("./images/nat5.jpg");
+}
+.c6{
+    background-image: url("./images/nat6.jpg");
+}   
+.log{
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+.book:hover{
+    background-color: cadetblue;
+    color: white;
+}
+main{
+    padding: 70px;
+}
+
 .book{
     width: 200px;
     display: flex;
@@ -61,25 +91,7 @@ i{
     text-shadow: 0px 0px 3px cadetblue;
     flex-wrap: wrap;
 }
-.book:hover{
-    background-color: cadetblue;
-    color: white;
-}
-main{
-    padding: 70px;
-}
-.p{
-    background-color: bisque;
-    padding: 20px;
-    border-radius: 10px;
-}
-.p h2{
-    color: blue;
-    padding: 2px;
-}
-.p p{
-    color: black;
-}
+
 .cards{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -94,39 +106,34 @@ main{
     background-position: center;
     transition: 1s;
 }
+
+
+.p{
+    background-color: bisque;
+    padding: 20px;
+    border-radius: 10px;
+}
+.p h2{
+    color: blue;
+    padding: 2px;
+}
+.p p{
+    color: black;
+}
+
 .card:hover{
     background-color: rgba(128, 128, 128, 0.571);
-    background-image: url("./images/cam.png");
+    background-image: url("https://i.pinimg.com/736x/df/37/21/df372187578fdad0e7ded5affb93c083.jpg");
     background-size: 200px;
     background-repeat: no-repeat;
     filter: grayscale(2);
     cursor: pointer;
 }
-.card:hover{
 
-}
-.c1{
-    background-image: url("./images/nature1.avif");
-}
-.c2{
-    background-image: url("./images/nature2.avif");
-}
-.c3{
-    background-image: url("./images/n3.avif");
-}
-.c4{
-    background-image: url("./images/n4.avif");
-}
-.c5{
-    background-image: url("./images/n5.avif");
-}
-.c6{
-    background-image: url("./images/n6.avif");
-}
-.banner{
+.postt{
     /* height: 50vh; */
     width: 100%;
-    background-image: url("./images/christtheredeemer.jpg");
+    background-image: url("./images/christ.jpg");
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -134,24 +141,24 @@ main{
     flex-direction: column;
     padding: 10px 100px;
 }
-.banner h3{
+.postt h3{
     color:cadetblue;
     font-size: 30px;
     padding: 20px;
     text-shadow: 0px 0px 3px cadetblue;
 }
-.banner h1{
+.postt h1{
     font-size: 70px;
     text-shadow: 2px 2px 3px black;
 }
-.banner p{
+.postt p{
     text-align: center;
     padding: 10px;
     opacity: .7;
 }
 footer{
     /* height: 50vh; */
-    background-color: rgb(36, 13, 13);
+    background-color: rgb(29, 19, 19);
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
